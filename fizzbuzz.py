@@ -4,6 +4,8 @@ def fizzbuzz(maximum=100):
     for number in range(1, maximum + 1):
         if number % 3 == 0:
             output.append("Fizz")
+        elif number % 5 == 0:
+            output.append("Buzz")
         else:
             output.append(number)
 
