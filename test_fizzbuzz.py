@@ -7,3 +7,6 @@ def test_prints_1_to_100():
     assert len(fizzbuzz()) == 100
     assert fizzbuzz()[0] == 1
     assert fizzbuzz()[99] == 100
+
+def test_buzz():
+    assert fizzbuzz(5)[4] == "Buzz"
