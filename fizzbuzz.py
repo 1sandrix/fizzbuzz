@@ -12,3 +12,7 @@ def fizzbuzz(maximum=100):
             output.append(number)
 
     return output
+
+if __name__ == "__main__":
+    for value in fizzbuzz():
+        print(value)
